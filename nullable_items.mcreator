@@ -1,0 +1,105 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "SmallIronCoin",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "small_iron_coin"
+    },
+    {
+      "name": "SmallGoldCoin",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "small_gold_coin"
+    },
+    {
+      "name": "IronCoin",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_coin"
+    },
+    {
+      "name": "GoldCoin",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gold_coin"
+    },
+    {
+      "name": "DiamondCoin",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_coin"
+    },
+    {
+      "name": "EmeraldCoin",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_coin"
+    },
+    {
+      "name": "RainbowCoin",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rainbow_coin"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.nullable_items.gold_coin": "Gold Coin",
+      "item.nullable_items.emerald_coin": "Emerald Coin",
+      "item.nullable_items.diamond_coin": "Diamond Coin",
+      "item.nullable_items.small_iron_coin": "Small Iron Coin",
+      "item.nullable_items.iron_coin": "Iron Coin",
+      "item.nullable_items.rainbow_coin": "Rainbow Coin",
+      "item.nullable_items.small_gold_coin": "Small Gold Coin"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "nullable_items",
+    "modName": "Meriths Nullable Items",
+    "version": "1.0.0",
+    "description": "A mod containing several items that mod pack creators can use for various things",
+    "author": "Merith.TK",
+    "websiteURL": "https://github.com/Merith-TK/nullable-items",
+    "license": "Mozilla Public License 2.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.16.5",
+    "credits": "MCreator, Merith.TK",
+    "modElementsPackage": "tk.merith.nullableitems",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}
