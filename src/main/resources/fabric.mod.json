@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "nullable_items",
+  "id": "nullable",
   "version": "1.0.0",
   "name": "Meriths Nullable Items",
   "description": "A mod containing several items that mod pack creators can use for various things",
@@ -8,17 +8,17 @@
     "Merith.TK"
   ],
   "contact": {
-    "homepage": "https://github.com/Merith-TK/mc-Nullable-Items",
+    "homepage": "https://github.com/Merith-TK/nullable-items",
     "sources": "https://github.com/ClothCreators/MCreatorFabricGenerator"
   },
   "license": "Mozilla Public License 2.0",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "tk.merith.nullableitems.NullableItemsMod"
+      "tk.merith.nullable.NullableMod"
     ],
     "client": [
-      "tk.merith.nullableitems.ClientInit"
+      "tk.merith.nullable.ClientInit"
     ]
   },
   "depends": {

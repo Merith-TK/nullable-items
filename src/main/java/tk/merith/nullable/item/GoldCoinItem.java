@@ -1,5 +1,5 @@
 
-package tk.merith.nullableitems.item;
+package tk.merith.nullable.item;
 
 import net.minecraft.world.World;
 import net.minecraft.util.Rarity;

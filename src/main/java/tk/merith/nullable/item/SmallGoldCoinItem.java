@@ -1,5 +1,5 @@
 
-package tk.merith.nullableitems.item;
+package tk.merith.nullable.item;
 
 import net.minecraft.world.World;
 import net.minecraft.util.Rarity;
@@ -17,8 +17,8 @@ import net.fabricmc.api.EnvType;
 
 import java.util.List;
 
-public class SmallIronCoinItem extends Item {
-	public SmallIronCoinItem() {
+public class SmallGoldCoinItem extends Item {
+	public SmallGoldCoinItem() {
 		super(new FabricItemSettings().group(ItemGroup.MISC).maxCount(64).rarity(Rarity.COMMON));
 	}
 
@@ -35,7 +35,7 @@ public class SmallIronCoinItem extends Item {
 	@Override
 	@Environment(EnvType.CLIENT)
 	public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-		tooltip.add(new LiteralText("Coin worth 1 bit"));
+		tooltip.add(new LiteralText("Coin worth 10 bits"));
 	}
 
 	@Override

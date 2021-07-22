@@ -10,7 +10,7 @@
 *    will be REGENERATED on each build.
 *
 */
-package tk.merith.nullableitems;
+package tk.merith.nullable;
 
 import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;

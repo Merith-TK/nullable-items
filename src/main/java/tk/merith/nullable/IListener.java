@@ -10,7 +10,7 @@
  *    will be REGENERATED on each build.
  *
  */
-package tk.merith.nullableitems;
+package tk.merith.nullable;
 
 import net.minecraft.world.World;
 import net.minecraft.util.hit.EntityHitResult;

@@ -69,13 +69,13 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.nullable_items.gold_coin": "Gold Coin",
-      "item.nullable_items.emerald_coin": "Emerald Coin",
-      "item.nullable_items.diamond_coin": "Diamond Coin",
-      "item.nullable_items.small_iron_coin": "Small Iron Coin",
-      "item.nullable_items.iron_coin": "Iron Coin",
-      "item.nullable_items.rainbow_coin": "Rainbow Coin",
-      "item.nullable_items.small_gold_coin": "Small Gold Coin"
+      "item.nullable.iron_coin": "Iron Coin",
+      "item.nullable.rainbow_coin": "Rainbow Coin",
+      "item.nullable.small_gold_coin": "Small Gold Coin",
+      "item.nullable.diamond_coin": "Diamond Coin",
+      "item.nullable.small_iron_coin": "Small Iron Coin",
+      "item.nullable.gold_coin": "Gold Coin",
+      "item.nullable.emerald_coin": "Emerald Coin"
     }
   },
   "foldersRoot": {
@@ -83,7 +83,7 @@
     "children": []
   },
   "workspaceSettings": {
-    "modid": "nullable_items",
+    "modid": "nullable",
     "modName": "Meriths Nullable Items",
     "version": "1.0.0",
     "description": "A mod containing several items that mod pack creators can use for various things",
@@ -98,7 +98,7 @@
     "mcreatorDependencies": [],
     "currentGenerator": "fabric-1.16.5",
     "credits": "MCreator, Merith.TK",
-    "modElementsPackage": "tk.merith.nullableitems",
+    "modElementsPackage": "tk.merith.nullable",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202100118117

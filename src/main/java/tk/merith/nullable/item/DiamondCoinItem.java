@@ -1,5 +1,5 @@
 
-package tk.merith.nullableitems.item;
+package tk.merith.nullable.item;
 
 import net.minecraft.world.World;
 import net.minecraft.util.Rarity;
@@ -17,8 +17,8 @@ import net.fabricmc.api.EnvType;
 
 import java.util.List;
 
-public class RainbowCoinItem extends Item {
-	public RainbowCoinItem() {
+public class DiamondCoinItem extends Item {
+	public DiamondCoinItem() {
 		super(new FabricItemSettings().group(ItemGroup.MISC).maxCount(64).rarity(Rarity.COMMON));
 	}
 
@@ -32,17 +32,10 @@ public class RainbowCoinItem extends Item {
 		return (float) (1F);
 	}
 
-	@Environment(EnvType.CLIENT)
-	@Override
-	public boolean hasGlint(ItemStack stack) {
-		return true;
-	}
-
 	@Override
 	@Environment(EnvType.CLIENT)
 	public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-		tooltip.add(new LiteralText("Coin of unknown origin"));
-		tooltip.add(new LiteralText("Radiates with Magical Energy"));
+		tooltip.add(new LiteralText("Coin worth 250 bits"));
 	}
 
 	@Override
