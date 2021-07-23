@@ -4,7 +4,7 @@
   "item.nullable.diamond_coin": "Diamond Coin",
   "item.nullable.gold_coin": "Gold Coin",
   "item.nullable.small_iron_coin": "Small Iron Coin",
-  "itemGroup.nullable.nullable_creative_tab": "Nullable Creative Tab",
+  "itemGroup.nullable.nullable_coins_tab": "Nullable Coins Tab",
   "item.nullable.rainbow_coin": "Rainbow Coin",
   "item.nullable.emerald_coin": "Emerald Coin"
 }

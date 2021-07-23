@@ -8,7 +8,7 @@
     "name": "Small Gold Coin",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:NullableCoinsTab"
     },
     "stackSize": 64,
     "enchantability": 0,
