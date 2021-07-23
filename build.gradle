@@ -5,9 +5,9 @@ plugins {
 sourceCompatibility = JavaVersion.VERSION_1_8
 targetCompatibility = JavaVersion.VERSION_1_8
 
-archivesBaseName = 'modid'
+archivesBaseName = 'nullable'
 version = '1.0.0'
-group = 'com.yourname.modid'
+group = 'tk.merith.nullable'
 
 dependencies {
 	minecraft "com.mojang:minecraft:1.16.5"

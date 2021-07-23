@@ -1,13 +1,12 @@
 
 package tk.merith.nullable.item;
 
-import tk.merith.nullable.NullableMod;
-
 import net.minecraft.world.World;
 import net.minecraft.util.Rarity;
 import net.minecraft.text.Text;
 import net.minecraft.text.LiteralText;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.block.BlockState;
@@ -20,7 +19,7 @@ import java.util.List;
 
 public class EmeraldCoinItem extends Item {
 	public EmeraldCoinItem() {
-		super(new FabricItemSettings().group(NullableMod.NullableCoins).maxCount(64).fireproof().rarity(Rarity.COMMON));
+		super(new FabricItemSettings().group(ItemGroup.MISC).maxCount(64).fireproof().rarity(Rarity.COMMON));
 	}
 
 	@Override

@@ -19,7 +19,7 @@ import java.util.List;
 
 public class SmallIronCoinItem extends Item {
 	public SmallIronCoinItem() {
-		super(new FabricItemSettings().group(ItemGroup.MISC).maxCount(64).rarity(Rarity.COMMON));
+		super(new FabricItemSettings().group(ItemGroup.MISC).maxCount(64).fireproof().rarity(Rarity.COMMON));
 	}
 
 	@Override
@@ -35,7 +35,7 @@ public class SmallIronCoinItem extends Item {
 	@Override
 	@Environment(EnvType.CLIENT)
 	public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-		tooltip.add(new LiteralText("Coin worth 1 bit"));
+		tooltip.add(new LiteralText("Small coin worth 1 bit"));
 	}
 
 	@Override

@@ -15,7 +15,7 @@ package tk.merith.nullable;
 import tk.merith.nullable.item.SmallIronCoinItem;
 import tk.merith.nullable.item.SmallGoldCoinItem;
 import tk.merith.nullable.item.RainbowCoinItem;
-import tk.merith.nullable.item.NullableCoinsItemGroup;
+import tk.merith.nullable.item.NullableCreativeTabItemGroup;
 import tk.merith.nullable.item.IronCoinItem;
 import tk.merith.nullable.item.GoldCoinItem;
 import tk.merith.nullable.item.EmeraldCoinItem;
@@ -41,7 +41,7 @@ public class NullableMod implements ModInitializer {
 	public static final Item DiamondCoin_ITEM = Registry.register(Registry.ITEM, id("diamond_coin"), new DiamondCoinItem());
 	public static final Item EmeraldCoin_ITEM = Registry.register(Registry.ITEM, id("emerald_coin"), new EmeraldCoinItem());
 	public static final Item RainbowCoin_ITEM = Registry.register(Registry.ITEM, id("rainbow_coin"), new RainbowCoinItem());
-	public static final ItemGroup NullableCoins = NullableCoinsItemGroup.get();
+	public static final ItemGroup NullableCreativeTab = NullableCreativeTabItemGroup.get();
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing NullableMod");

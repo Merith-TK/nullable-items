@@ -8,7 +8,7 @@
     "name": "Emerald Coin",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:NullableCoins"
+      "value": "MISC"
     },
     "stackSize": 64,
     "enchantability": 0,

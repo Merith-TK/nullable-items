@@ -72,13 +72,13 @@
       "path": "~/NullableCoins"
     },
     {
-      "name": "NullableCoins",
+      "name": "NullableCreativeTab",
       "type": "tab",
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "nullable_coins"
+      "registry_name": "nullable_creative_tab"
     }
   ],
   "variable_elements": [],
@@ -88,9 +88,9 @@
       "item.nullable.iron_coin": "Iron Coin",
       "item.nullable.small_gold_coin": "Small Gold Coin",
       "item.nullable.diamond_coin": "Diamond Coin",
-      "itemGroup.nullable.nullable_coins": "Nullable Coins",
       "item.nullable.gold_coin": "Gold Coin",
       "item.nullable.small_iron_coin": "Small Iron Coin",
+      "itemGroup.nullable.nullable_creative_tab": "Nullable Creative Tab",
       "item.nullable.rainbow_coin": "Rainbow Coin",
       "item.nullable.emerald_coin": "Emerald Coin"
     }
