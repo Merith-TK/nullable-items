@@ -8,7 +8,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "small_iron_coin"
+      "registry_name": "small_iron_coin",
+      "path": "~/NullableCoins"
     },
     {
       "name": "SmallGoldCoin",
@@ -17,7 +18,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "small_gold_coin"
+      "registry_name": "small_gold_coin",
+      "path": "~/NullableCoins"
     },
     {
       "name": "IronCoin",
@@ -26,7 +28,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "iron_coin"
+      "registry_name": "iron_coin",
+      "path": "~/NullableCoins"
     },
     {
       "name": "GoldCoin",
@@ -35,7 +38,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "gold_coin"
+      "registry_name": "gold_coin",
+      "path": "~/NullableCoins"
     },
     {
       "name": "DiamondCoin",
@@ -44,7 +48,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "diamond_coin"
+      "registry_name": "diamond_coin",
+      "path": "~/NullableCoins"
     },
     {
       "name": "EmeraldCoin",
@@ -53,7 +58,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "emerald_coin"
+      "registry_name": "emerald_coin",
+      "path": "~/NullableCoins"
     },
     {
       "name": "RainbowCoin",
@@ -62,7 +68,17 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "rainbow_coin"
+      "registry_name": "rainbow_coin",
+      "path": "~/NullableCoins"
+    },
+    {
+      "name": "NullableCoins",
+      "type": "tab",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nullable_coins"
     }
   ],
   "variable_elements": [],
@@ -70,17 +86,23 @@
   "language_map": {
     "en_us": {
       "item.nullable.iron_coin": "Iron Coin",
-      "item.nullable.rainbow_coin": "Rainbow Coin",
       "item.nullable.small_gold_coin": "Small Gold Coin",
       "item.nullable.diamond_coin": "Diamond Coin",
-      "item.nullable.small_iron_coin": "Small Iron Coin",
+      "itemGroup.nullable.nullable_coins": "Nullable Coins",
       "item.nullable.gold_coin": "Gold Coin",
+      "item.nullable.small_iron_coin": "Small Iron Coin",
+      "item.nullable.rainbow_coin": "Rainbow Coin",
       "item.nullable.emerald_coin": "Emerald Coin"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "NullableCoins",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "nullable",
@@ -92,7 +114,10 @@
     "license": "Mozilla Public License 2.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "requiredMods": [],
+    "modPicture": "icon",
+    "requiredMods": [
+      "modmenu"
+    ],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],

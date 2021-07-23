@@ -12,6 +12,7 @@
     "sources": "https://github.com/ClothCreators/MCreatorFabricGenerator"
   },
   "license": "Mozilla Public License 2.0",
+  "icon": "assets/nullable/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
