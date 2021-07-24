@@ -76,7 +76,7 @@
       "type": "tab",
       "sortid": 8,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "nullable_coins_tab"
     },
