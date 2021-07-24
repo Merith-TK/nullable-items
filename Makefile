@@ -1,3 +1,6 @@
+default:
+	gradlew build
+
 fixcoin:
 	## Fix Coin's Creative Tab
 	sed -i 's/.group(NullableMod.NullableCoinsTab)/.group(NullableCoinsTabItemGroup.get())/' src/main/java/tk/merith/nullable/item/*CoinItem.java
