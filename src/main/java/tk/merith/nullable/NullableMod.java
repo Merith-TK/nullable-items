@@ -20,6 +20,7 @@ import tk.merith.nullable.item.IronCoinItem;
 import tk.merith.nullable.item.GoldCoinItem;
 import tk.merith.nullable.item.EmeraldCoinItem;
 import tk.merith.nullable.item.DiamondCoinItem;
+import tk.merith.nullable.block.CoinForgeBlock;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -28,6 +29,8 @@ import net.minecraft.util.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
+import net.minecraft.item.BlockItem;
+import net.minecraft.block.Block;
 
 import net.fabricmc.fabric.api.command.v1.CommandRegistrationCallback;
 import net.fabricmc.api.ModInitializer;
@@ -42,6 +45,9 @@ public class NullableMod implements ModInitializer {
 	public static final Item EmeraldCoin_ITEM = Registry.register(Registry.ITEM, id("emerald_coin"), new EmeraldCoinItem());
 	public static final Item RainbowCoin_ITEM = Registry.register(Registry.ITEM, id("rainbow_coin"), new RainbowCoinItem());
 	public static final ItemGroup NullableCoinsTab = NullableCoinsTabItemGroup.get();
+	public static final Block CoinForge_BLOCK = Registry.register(Registry.BLOCK, id("coin_forge"), new CoinForgeBlock());
+	public static final BlockItem CoinForge_ITEM = Registry.register(Registry.ITEM, id("coin_forge"),
+			new BlockItem(CoinForge_BLOCK, new Item.Settings().group(NullableMod.NullableCoinsTab)));
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing NullableMod");

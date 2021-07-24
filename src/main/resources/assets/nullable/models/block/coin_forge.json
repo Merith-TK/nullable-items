@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "nullable:blocks/coin_forge",
+    "up": "nullable:blocks/coin_forge",
+    "north": "nullable:blocks/coin_forge",
+    "east": "nullable:blocks/coin_forge",
+    "south": "nullable:blocks/coin_forge",
+    "west": "nullable:blocks/coin_forge",
+    "particle": "nullable:blocks/coin_forge"
+  }
+}

@@ -2,6 +2,7 @@
   "item.nullable.iron_coin": "Iron Coin",
   "item.nullable.small_gold_coin": "Small Gold Coin",
   "item.nullable.diamond_coin": "Diamond Coin",
+  "block.nullable.coin_forge": "Coin Forge",
   "item.nullable.gold_coin": "Gold Coin",
   "item.nullable.small_iron_coin": "Small Iron Coin",
   "itemGroup.nullable.nullable_coins_tab": "Nullable Coins Tab",

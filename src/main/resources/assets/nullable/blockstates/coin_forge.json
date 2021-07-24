@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "nullable:block/coin_forge"
+    }
+  }
+}
